@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+html,body{margin:0;}
+h1,h2,h3,h4,h5,div,p{margin:0;}
+ul li , ol li{ list-style: none;}
+a, a:hover{text-decoration: none;}
+
+body{ overflow-x: hidden;}
+
+/* Brand Page */
+
+
+#brand{
+
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    margin-top:80px;
+    overflow: hidden;
+  
+    }
+  
+#brand .brandPage{
+  
+    width:100%;
+    height:500px;
+    background-position:50% 50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+   }
+  
+  
+#brand .brand_page1{
+  
+    padding:20px 0px;
+    background-image:url(../assets/img/brand01.jpeg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+  
+   }
+  
+  
+#brand .brand_page1 h3{
+  
+    color:#fff;
+    font-weight:800;
+    font-size:33px;
+    letter-spacing:3px;
+  
+    }
+  
+#brand .brand_page2{
+  
+    padding:20px 0px;
+    background-image:url(../assets/img/background01.png);
+    background-size: 30%;
+    background-position:20% center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color: #f4f4f4;
+  
+   }
+  
+  
+#brand .brand_page2 p{
+   
+    font-size: 50px;
+    color:#333;
+    margin:10px;
+  
+   }
+  
+  
+#brand .brand_page2 p:first-child{
+  
+    font-size:16px;
+    color:#aa0000;
+    font-weight:800;
+  
+    }
+  
+  
+#brand .brand_page3{
+     
+    padding: 20px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(246, 242, 237);
+     
+     }
+  
+#brand .brand_page4{
+
+    padding: 20px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #f4f4f4;
+    
+    }
+
+.boxs{ flex:1;}
+  
+
+.Box1{
+  
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  
+  
+      }
+  
+.Box1 .subBoxs{ margin:10px; }
+  
+.Box1 .iconBox { display:flex; margin-left:13%;}
+
+.Box1 .iconBox li{ margin:10px; float:left; }
+  
+.Box1 .iconBox li img{ height:40px; text-align:center; }
+  
+.Box1 .iconBox li p{ font-size:12px; text-transform:uppercase; color:#998b7e;}
+  
+.Box1 .infoBox {
+  
+    display:flex;
+    flex-direction:column;
+  
+       }
+
+.Box1 .infoBox li{ margin: 2px; }
+.Box1 .infoBox li p{ font-size:18px; padding: 0px 80px; font-weight:600; color:#515151; text-align: left;}
+.Box1 .infoBox li:first-child p{ font-size:40px; color:#aa0000; font-weight:800; text-align: left;}
+  
+
+.Box2{
+
+    margin-top:30px;
+
+}
+
+.Box2 img{
+
+    height:100%;
+}
+
+
+
+
+  
+  
+  

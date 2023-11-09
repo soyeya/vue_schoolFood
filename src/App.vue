@@ -11,7 +11,7 @@
         <router-link to="/news">소식</router-link>
       </div>
     </nav>
-    <Main></Main>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -39,6 +39,7 @@ nav{
    position:fixed;
    left:0;
    top:0;
+   z-index:10;
    background-color:rgba(225,225,225,0.9);
    }
 
@@ -90,13 +91,21 @@ nav .menu a:hover{
 <script>
 
 import Main from './views/MainView.vue';
+import Brand from './views/BrandView.vue';
+import Foundation from './views/FoundationView.vue';
+import Menu from './views/MenuView.vue';
+import News from './views/NewsView.vue';
 
 export default{
 
  name: "App",
  components : {
  
-   Main
+   Main,
+   Brand,
+   Menu,
+   Foundation,
+   News
  
  }
 
