@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import '../css/views.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;800;900&display=swap');
 
 *{margin:0; padding:0;}
 html,body{margin:0;}
@@ -7,7 +8,7 @@ h1,h2,h3,h4,h5,div,p{margin:0;}
 ul li , ol li{ list-style: none;}
 a, a:hover{text-decoration: none;}
 
-body{ overflow-x: hidden;}
+body{ overflow-x: hidden; font-family: 'Noto Sans KR', sans-serif;}
 
 
 /* Banner */

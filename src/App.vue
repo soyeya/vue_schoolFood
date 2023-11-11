@@ -7,8 +7,7 @@
       <div class="menu">
         <router-link to="/brand">브랜드소개</router-link>
         <router-link to="/menu">메뉴</router-link>
-        <router-link to="/foundation">창업문의</router-link>
-        <router-link to="/news">소식</router-link>
+        <a href="https://smartstore.naver.com/sfinnovation">스쿨푸드몰</a>
       </div>
     </nav>
     <router-view></router-view>
@@ -90,11 +89,11 @@ nav .menu a:hover{
 
 <script>
 
+import axios from 'axios';
 import Main from './views/MainView.vue';
 import Brand from './views/BrandView.vue';
-import Foundation from './views/FoundationView.vue';
 import Menu from './views/MenuView.vue';
-import News from './views/NewsView.vue';
+import ListMenu from './views/ListView.vue';
 
 export default{
 
@@ -104,8 +103,7 @@ export default{
    Main,
    Brand,
    Menu,
-   Foundation,
-   News
+   ListMenu
  
  }
 

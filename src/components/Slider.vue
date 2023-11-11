@@ -1,5 +1,5 @@
 <template>
-  <swiper class="mySwiper mainSwiper" >
+  <swiper class="mainSwiper swiper-wrapper" :options="swiperOption" ref="mySwiper">
     <swiper-slide class="slides slide1"></swiper-slide>
     <swiper-slide class="slides slide2"></swiper-slide>
     <swiper-slide class="slides slide3"></swiper-slide>
@@ -9,11 +9,9 @@
 
 <script>
 
-  // Import Swiper Vue.js components
- import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 
-  // Import Swiper styles
-  import '../swiper/swiper.css';
+ import { Swiper, SwiperSlide } from "swiper/vue";
+ import '../swiper/swiper.css';
 
   export default {
 
@@ -25,10 +23,23 @@
 
     },
 
-    props : {
+    data(){
+     return {
+     
+      swiperOption : {
+  
+      autoplay :{
 
-     options : Array
+        delay: 2000
 
+          },
+
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30
+        }
+
+       }
     }
 
 

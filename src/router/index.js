@@ -1,11 +1,18 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainView from '../views/MainView.vue'
+import Vuetify from 'vuetify'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 
 Vue.use(VueRouter)
+Vue.use(Vuetify)
+Vue.use(VueAwesomeSwiper)
+
+
 
 const routes = [
+
   {
     path: '/',
     name: 'MainView',
@@ -13,34 +20,28 @@ const routes = [
   }, 
   {
     path: '/brand',
-    name: 'Brand',
+    name: 'brand',
     component : function(){
 
        return import('../views/BrandView.vue');
     }
+  },
+  {
+    path : '/menu',
+    name : 'schoolMenu',
+    component : function(){
+
+       return import('../views/MenuView.vue');
+    }
   }
+
+
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes : [
-
-    {
-      path: '/',
-      name: 'MainView',
-      component: MainView //main페이지로 지정
-    },
-    {
-      path: '/brand',
-      name: 'Brand',
-      component : function(){
-
-         return import('../views/BrandView.vue'); //router로 동작
-      }
-    }
-
-  ]
+  routes : routes
 
 })
 
