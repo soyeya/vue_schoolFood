@@ -1,19 +1,20 @@
 <template>
-  <swiper class="mainSwiper swiper-wrapper" :options="swiperOption" ref="mySwiper">
+  <swiper 
+  class="swiper-wrapper" :options="swiperOption">
     <swiper-slide class="slides slide1"></swiper-slide>
     <swiper-slide class="slides slide2"></swiper-slide>
     <swiper-slide class="slides slide3"></swiper-slide>
     <swiper-slide class="slides slide4"></swiper-slide>
+    <div class="swiper-pagination"></div>
   </swiper>
 </template>
 
 <script>
 
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+import '../swiper/swiper.css';
 
- import { Swiper, SwiperSlide } from "swiper/vue";
- import '../swiper/swiper.css';
-
-  export default {
+export default{
 
     name : "Slider",
     components: {
@@ -23,26 +24,30 @@
 
     },
 
-    data(){
-     return {
-     
-      swiperOption : {
-  
-      autoplay :{
+  data() {
+      return {
 
-        delay: 2000
 
-          },
+        swiperOption: {
 
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 30
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          slidesPerGroup: 1,
+          
+          autoplay : {
+
+           delay : 2500
+
+           }
+
+
+
         }
 
-       }
+      }
+
     }
-
-
   };
 </script>
 

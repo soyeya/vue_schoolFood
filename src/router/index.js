@@ -2,12 +2,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainView from '../views/MainView.vue'
 import Vuetify from 'vuetify'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-
+import VueAwesomeSwiper  from 'vue-awesome-swiper'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
 Vue.use(VueAwesomeSwiper)
+
+
 
 
 
