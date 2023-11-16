@@ -1,0 +1,71 @@
+
+  {
+    
+    "infoBox1" : [
+
+        "사실 스쿨푸드는 ‘맛’이 다예요." ,
+        "맛있는 음식이 아니면 드리지 않겠다는 스쿨푸드의 철학!" ,
+        "새로운 맛, 다양한 맛을 제공하기 위해 스쿨푸드는 365일 내내 ‘맛’에 대한 고민을 멈추지 않습니다." 
+    ],
+
+    "iconBox1" : [
+         
+        { "image" : "icon1.png" , "txt" : "delicious"},
+        { "image" : "icon2.png" , "txt" : "new menu"},
+        { "image" : "icon3.png" , "txt" : "variety" },
+        { "image" : "icon4.png" , "txt" : "cleanliness" }
+      
+      ],
+
+    "infoBox2" : [
+       
+        "저희만 믿고 따라오세요." ,  
+        "점주님은 열심히 장사만 하세요. 나머지는 저희가 하겠습니다!" , 
+        "메뉴 개발, 서비스 관리, 브랜드 홍보 등등 혼자는 어려운 부분은 스쿨푸드 본사가 함께 나누며 같이 잘 먹고 잘 사는 법을 찾고자 노력합니다."
+
+       ],
+
+    "iconBox2" : [
+         
+        { "image" : "icon5.png" , "txt" : "passion"},
+        { "image" : "icon6.png" , "txt" : "R&D center"},
+        { "image" : "icon7.png" , "txt" : "store owner" },
+        { "image" : "icon8.png" , "txt" : "q.c" }
+      
+      ],
+
+    "infoBox3" : [
+       
+        "스쿨푸드라면 인정!" ,  
+        "김밥의 프리미엄 시대를 열었던 히트 메뉴 ‘마리’를 시작으로 20년간 항상 외식업계 리딩 브랜드로 내공을 쌓아 온 스쿨푸드." , 
+        "이제 아시아, 미국 시장에서도 인정 받는 글로벌 브랜드로 도전을 이어갑니다."
+
+       ],
+
+    "iconBox3" : [
+         
+        { "image" : "icon9.png" , "txt" : "since 2002"},
+        { "image" : "icon10.png" , "txt" : "global k-food"},
+        { "image" : "icon11.png" , "txt" : "learding" },
+        { "image" : "icon12.png" , "txt" : "mari" },
+        { "image" : "icon13.png" , "txt" : "premium" }
+      
+      ],
+
+    "infoBox4" : [
+       
+        "맛있는 스쿨푸드, 이제 딜리버리로 만나요" ,  
+        "딜리버리 리딩 브랜드로 또 한번 빠르게 진화하는 스쿨푸드" , 
+        "이제 집에서, 회사에서 맛있는 스쿨푸드를 만나 보세요."
+
+       ],
+
+    "iconBox4" : [
+         
+        { "image" : "icon14.png" , "txt" : "fast"},
+        { "image" : "icon15.png" , "txt" : "delivery"}
+      
+      ]
+
+
+  }
