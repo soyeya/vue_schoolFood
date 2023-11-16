@@ -22,5 +22,7 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+
+  "homepage": "https://soyeya.github.io/vue_schoolFood/"
 }
